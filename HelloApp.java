@@ -1,5 +1,6 @@
 public class HelloApp {
-    public static void main(String[] args){
-        System.out.println("hello world");
+    public static void main(String[] args) {
+        String name = args[0];   // get first argument
+        System.out.println("Hello " + name);
     }
 }
